@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+<head>
+    <title>beerandbooks</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<style>
+*{
+      box-sizing: border-box;
+    }
+
+body {
+  background-color:rgb(43, 28, 28); 
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin: 0;
+}   
+
+.header {
+  background-image: url(https://thehermitage.com/wp-content/uploads/2020/05/AdobeStock_273578966-e1590528333318.jpg);
+  background-attachment: fixed;  
+  background-size: cover;
+  padding: 60px;
+  text-align: center;
+  color: rgb(254, 254, 248);}
+
+.topnav {
+overflow: hidden;
+background-color: rgb(90, 53, 53);
+}
+
+.topnav a {
+float: left;
+color: #f2f2f2;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 18px;
+}
+
+.topnav a:hover {
+background-color: #ddd;
+color: rgb(81, 44, 44);
+}
+
+.topnav a.active {
+background-color: rgb(163, 107, 107);
+color: white;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #503235;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #d79494;
+}
+
+.container { 
+  background-color: #f2f2f2;
+  padding: 80px;}
+
+.fa {
+  padding: 20px;
+  font-size: 35Spx;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 5px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-Instagram {
+  background: #007bb5;
+  color: white;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-Github {
+  background: #007bb5;
+  color: white;
+}
+
+</style>
+</head>
+<body>
+
+    <div class="header">
+        <h1>BeerandBooks</h1>
+      </div>
+
+    <div class="topnav">
+        <a href="D:\nancy\dummyweb.html">Home</a>
+        <a class="active" href="D:\nancy\suggest.html">Suggest a book</a>
+    </div> 
+
+<h3 style="color:#ccc">Can't find a book? Contact us!</h3>
+
+<div class="container">
+  <form method="post" action="D:\nancy\contact.php">
+    <label for="bookname">Book Name</label>
+    <input type="text" id="bookname" name="bookname">
+
+    <label for="authorname">Author Name</label>
+    <input type="text" id="authorname" name="authorname">
+
+    <label for="genre">Genre of the Book</label>
+    <select id="genre" name="genre">
+      <option value="Biography">Biography</option>
+      <option value="Comedy">Comedy</option>
+      <option value="Drama">Drama</option>
+      <option value="Horror">Horror</option>
+      <option value="Mystery">Mystery</option>
+      <option value="Romance">Romance</option>
+      <option value="Other">Other</option> 
+    </select>
+
+    <label for="email">E-mail</label>
+    <input type="text" id="email" name="sendersemail">
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+<!-- Footer -->
+<footer class="text-center text-lg-start text-muted" style="background-color: rgb(81, 44, 44) ;">
+  <p style="color:rgb(230, 217, 201)"> We provide E-books.</p>
+  <div>
+      <a href="https://www.instagram.com/avanibtw/" class="fa fa-instagram"></a>
+      <a href="#" class="fa fa-linkedin"></a>
+      <a href="#" class="fa fa-github"></a>
+    </div>
+
+</footer>
+<!-- Footer -->
+
+</body>
+</html>
