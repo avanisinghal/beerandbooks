@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+<head>
+    <title>beerandbooks</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<style>
+*{
+      box-sizing: border-box;
+    }
+
+body {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin: 0;
+}   
+
+.header {
+  background-image: url(https://thehermitage.com/wp-content/uploads/2020/05/AdobeStock_273578966-e1590528333318.jpg);
+  background-attachment: fixed;  
+  background-size: cover;
+  padding: 60px;
+  text-align: center;
+  color: rgb(254, 254, 248);}
+
+.topnav {
+overflow: hidden;
+background-color: rgb(90, 53, 53);
+}
+
+.topnav a {
+float: left;
+color: #f2f2f2;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 18px;
+}
+
+.topnav a:hover {
+background-color: #ddd;
+color: rgb(81, 44, 44);
+}
+
+.topnav a.active {
+background-color: rgb(163, 107, 107);
+color: white;
+}
+
+.row {    
+  color: #ddd;  
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+}
+
+.side { 
+  -ms-flex: 15%; /* IE10 */
+  flex: 15%;
+  background-color: rgb(43, 28, 28);
+  padding: 20px;
+  overflow-y:scroll;
+}
+
+.main { 
+  background-color: rgb(43, 28, 28);   
+  -ms-flex: 72%; /* IE10 */
+  flex: 72%;
+  padding: 20px;
+}
+
+.img {
+  width: 100%;
+  padding: 20px;
+}
+
+.thumbnail {
+  background-color: rgb(87, 62, 62); 
+  float:left;
+  width: 25%;
+  padding: 20px;
+}
+
+.caption{
+    align-self: center ;
+    color:#ddd;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 35Spx;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 5px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-Instagram {
+  background: #007bb5;
+  color: white;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-Github {
+  background: #007bb5;
+  color: white;
+}
+
+</style>
+
+<body>
+    <div class="header">
+        <h1>BeerandBooks</h1>
+      </div>
+
+    <div class="topnav">
+        <a class="active" href="D:\nancy\dummyweb.html">Home</a>
+        <a href="D:\nancy\suggest.html">Suggest a book</a>
+    </div> 
+
+    <div class="row">
+        <div class="column"></div><div class="side">
+          <h3>Recently added Books</h3>
+
+          <div class="img">
+            <a href="file:///C:/Users/anukr/OneDrive/Desktop/Beerandbooks/Files/john-green_-_looking_for_alaska.pdf">
+                <img src="https://media1.popsugar-assets.com/files/thumbor/hfAl0DbwgRNi-E2xB3Pt6o9uKkI/fit-in/1024x1024/filters:format_auto-!!-:strip_icc-!!-/2017/04/03/862/n/41570627/29c3cb691c0d7e6a_61TePxqm9wL/i/Looking-Alaska.jpg" class="img-responsive" style="height: 260px;" >
+                <div class="caption">Looking for Alaska--John Green</div>
+            </a>
+        </div>
+        <div class="img">
+            <a href="file:///C:/Users/anukr/OneDrive/Desktop/beerandbooks/Files/the-alchemist.pdf">
+                <img src="https://www.bibdsl.co.uk/bds-images/l/978000/9780007155668.jpg" class="img-responsive"  style="width:200px;height: 250px;">
+                <div class="caption">The Alchemist--Paulo Coelho</div>
+            </a>
+        </div>
+        </div>
+
+        <div class="main">
+            <div class="column">
+            <div class="content">
+            <div class="container" id="img-div" style="height: 100%">
+                <div class="books">
+
+                    <div class="thumbnail">
+                        <a href="file:///C:/Users/anukr/OneDrive/Desktop/Beerandbooks/Files/alice's-adventures-in-wonderland%202.pdf">
+                            <img src="https://th.bing.com/th/id/R.10cb40ff3897d40d2508c0a5fbc48e4d?rik=BJNfPpxzJ8VeIA&riu=http%3a%2f%2ffsconline.info%2febooks%2fwp-content%2fuploads%2f2016%2f02%2falicesadventuresinwonderland.jpeg&ehk=9z8B836RQvpA0eMdQ1XGYUDbXhGxvxEYWs6G5zow6cM%3d&risl=&pid=ImgRaw&r=0" class="img-responsive" style="width:200px;height: 250px;">
+                            <div class="caption">Alice's Adventure in Wonderland</div>
+                        </a>
+                    </div>
+
+                    <div class="thumbnail">
+                        <a href="file:///C:/Users/anukr/OneDrive/Desktop/Beerandbooks/Files/All%20The%20Bright%20Places.pdf">
+                            <img src="https://th.bing.com/th/id/OIP.xg_2BR6O4i93EyKgXb-_wwHaLi?pid=ImgDet&rs=1" class="img-responsive" style="width:200px;height: 250px;" >
+                            <div class="caption">All the bright places-- Jennifer Niven</div>
+                        </a>
+                    </div>
+
+                    <div class="thumbnail">
+                        <a href="file:///C:/Users/anukr/OneDrive/Desktop/Beerandbooks/Files/Kafka-on-the-Shore-pdf.pdf">
+                            <img src="https://images-na.ssl-images-amazon.com/images/I/81tdbrewW0L.jpg" class="img-responsive" style="width:200px;height: 250px;" >
+                            <div class="caption">Kafka on the shore --Haruki Murakami</div>
+                        </a>
+                    </div>
+
+                        <div class="thumbnail">
+                            <a href="file:///C:/Users/anukr/OneDrive/Desktop/beerandbooks/Files/john-green_-_looking_for_alaska.pdf">
+                                <img src="https://media1.popsugar-assets.com/files/thumbor/hfAl0DbwgRNi-E2xB3Pt6o9uKkI/fit-in/1024x1024/filters:format_auto-!!-:strip_icc-!!-/2017/04/03/862/n/41570627/29c3cb691c0d7e6a_61TePxqm9wL/i/Looking-Alaska.jpg" class="img-responsive" style="width:200px;height: 250px;" >
+                                <div class="caption">Looking for Alaska--John Green</div>
+                            </a>
+                        </div>
+                        
+                        <div class="thumbnail">
+                            <a href="file:///C:/Users/anukr/OneDrive/Desktop/Beerandbooks/Files/little-women.pdf">
+                                <img src="https://th.bing.com/th/id/R.2cbf05cebdf80ac5d7d4b8716e67af2b?rik=IdIRqylK5%2fWtoA&riu=http%3a%2f%2fstatic.tvmaze.com%2fuploads%2fimages%2foriginal_untouched%2f152%2f381031.jpg&ehk=emtJ9Sg3MPx%2bKg90eL2pWboTU51Zr%2fAGiPxNENPb1bs%3d&risl=&pid=ImgRaw&r=0" class="img-responsive" style="width:200px;height: 250px;" >
+                                <div class="caption">Little Woman-- Louisa May Alcott</div>
+                            </a>
+                        </div>
+
+                        <div class="thumbnail">
+                            <a href="file:///C:/Users/anukr/OneDrive/Desktop/Beerandbooks/Files/On%20earth%20we're%20briefly%20gorgeous.pdf">
+                                <img src="https://litbooks.com.my/wp-content/uploads/2020/09/9781529110685-1.jpg" class="img-responsive" style="width:200px;height: 250px;" >
+                                <div class="caption">On Earth We're briefly gorgeous</div>
+                            </a>
+                        </div>
+                        <div class="thumbnail">
+                            <a href="file:///C:/Users/anukr/OneDrive/Desktop/beerandbooks/Files/Perfume_-The-Story-of-a-Murderer.pdf">
+                                <img src="https://i.pinimg.com/originals/82/da/04/82da0416b22b5b3265408e1adda4cf5c.jpg" class="img-responsive" style="width:200px;height: 250px;" >
+                                <div class="caption">Perfume-The Story of a Murderer-- Patrick Suskind</div>
+                            </a>
+                        </div>
+
+                        <div class="thumbnail">
+                            <a href="file:///C:/Users/anukr/OneDrive/Desktop/Beerandbooks/Files/The%20adventured%20of%20huckleberry%20finn.pdf">
+                                <img src="https://th.bing.com/th/id/OIP.INzCsbWAEfv9ZNhO2N8N_QHaLc?pid=ImgDet&rs=1" class="img-responsive" style="width:200px;height: 250px;" >
+                                <div class="caption">The Adventures of Huckleberry Finn</div>
+                            </a>
+                        </div>
+
+                        <div class="thumbnail">
+                            <a href="file:///C:/Users/anukr/OneDrive/Desktop/Beerandbooks/Files/The%20Silent%20Patient%20by%20Alex%20Michaelides%20%20(1).pdf">
+                                <img src="https://www.deccanherald.com/sites/dh/files/article_images/2020/05/19/file76dz10rjyo71a09bo1y2-1386543392-1569699001.jpg" class="img-responsive" style="width:200px;height: 250px;" >
+                                <div class="caption">The Silent Patient-- Alex Michaelides</div>
+                            </a>
+                        </div>
+
+                        <div class="thumbnail">
+                            <a href="file:///C:/Users/anukr/OneDrive/Desktop/Beerandbooks/Files/the-book-thief-markus-zusak.pdf">
+                                <img src="https://th.bing.com/th/id/R.2577df64b628056decf313c45c8da43e?rik=p6AefUgnUx7bpw&riu=http%3a%2f%2fmedia-cache-ec0.pinimg.com%2f736x%2fe5%2f89%2f8a%2fe5898a9578996f40770c0f1d1bbcb4e5.jpg&ehk=0zwxnmyXhkVmx9E7jqKI1hvRYgNbbcYtjsctsk4CqWg%3d&risl=&pid=ImgRaw&r=0" class="img-responsive"  style="width:200px;height: 250px;">
+                                <div class="caption">The book thief-- Markus Zusak</div>
+                            </a>
+                        </div>
+
+                        <div class="thumbnail">
+                            <a href="file:///C:/Users/anukr/OneDrive/Desktop/Beerandbooks/Files/the-diary-of-anne-frank.pdf">
+                                <img src="https://th.bing.com/th/id/R.4ae117a70d52279312dc8c62e33b83f4?rik=uOBExSFKwpC%2fgQ&riu=http%3a%2f%2f1.bp.blogspot.com%2f-i_fgLqXM8Rs%2fT9mYcHVvq1I%2fAAAAAAAAAog%2fambV6C7gMGY%2fs1600%2fdagboek_thediaryofayounggirlannefrank_PB_engels.jpg&ehk=0eo6WzlsfuHdcPT7Mm%2bJO8EbbjGZM8v7rbKpX%2bNTVMY%3d&risl=&pid=ImgRaw&r=0" class="img-responsive"  style="width:200px;height: 250px;">
+                                <div class="caption">The Diary of Anne Frank--Anne Frank</div>
+                            </a>
+                        </div>
+
+                        <div class="thumbnail">
+                            <a href="file:///C:/Users/anukr/OneDrive/Desktop/Beerandbooks/Files/Men_Without_Women_Stories_-_Haruki_Murakami.pdf">
+                                <img src="https://th.bing.com/th/id/OIP.GaI1Qeg9DQa6EV9JrmJJggHaLX?pid=ImgDet&rs=1" class="img-responsive"  style="width:200px;height: 250px;">
+                                <div class="caption">Men Without Women Stories --Haruki Murakami</div>
+                            </a>
+                        </div>
+
+                        <div class="thumbnail">
+                            <a href="file:///C:/Users/anukr/OneDrive/Desktop/Beerandbooks/Files/the-alchemist.pdf">
+                                <img src="https://www.bibdsl.co.uk/bds-images/l/978000/9780007155668.jpg" class="img-responsive"  style="width:200px;height: 250px;">
+                                <div class="caption">The Alchemist--Paulo Coelho</div>
+                            </a>
+                        </div>
+                    
+                            <div class="thumbnail">
+                                <a href="file:///C:/Users/anukr/OneDrive/Desktop/Beerandbooks/Files/The-Great-Gatsby%20(1)%20full%20text.pdf">
+                                    <img src="https://th.bing.com/th/id/R.7c5697ee72aae7fe607f69d223740452?rik=sgWxstAv8tg2Eg&riu=http%3a%2f%2fd28hgpri8am2if.cloudfront.net%2fbook_images%2fonix%2fcvr9781471173936%2fthe-great-gatsby-9781471173936_hr.jpg&ehk=Jz0jBOB5sZkGZ0GWHtNFPKtFLQNRZEIuO6rAtLbpOOA%3d&risl=&pid=ImgRaw&r=0" class="img-responsive" style="width:200px;height: 250px;">
+                                    <div class="caption">The Great Gatsby--F. Scott Fitzgerald</div>
+                                </a>
+                            </div>
+                        
+                            <div class="thumbnail">
+                                <a href="file:///C:/Users/anukr/OneDrive/Desktop/beerandbooks/Files/thefaultinourstars.pdf">
+                                    <img src="https://th.bing.com/th/id/R.5707eec0ac739a92cc0c4530652a08ce?rik=ktLox9pQExxnxw&riu=http%3a%2f%2f3.bp.blogspot.com%2f-HCpMQ8kRszI%2fUWW0OJ3TG4I%2fAAAAAAAACmQ%2fE5ueZYfS7HA%2fs1600%2fThe-Fault-in-Our-Stars-PB.jpg&ehk=ZNb80it1HKYoHkXI7ngwfCx0e9CX9ALPD%2fXKiJ6b7oM%3d&risl=&pid=ImgRaw&r=0" class="img-responsive" style="width:200px;height: 250px;">
+                                    <div class="caption">The fault in our stars--John Green</div>
+                                </a>
+                            </div>
+
+                            <div class="thumbnail">
+                                <a href="file:///C:/Users/anukr/OneDrive/Desktop/Beerandbooks/Files/The%20mountain%20is%20you.pdf">
+                                    <img src="https://allreadingworld.com/wp-content/uploads/2021/03/The-Mountain-Is-You-by-Brianna-Wiest-188x300.jpg" class="img-responsive" style="width:200px;height: 250px;">
+                                    <div class="caption">The Mountain is you--Brianna Wiest</div>
+                                </a>
+                            </div>
+
+                            <div class="thumbnail">
+                                <a href="file:///C:/Users/anukr/OneDrive/Desktop/Beerandbooks/Files/pride-and-prejudice.pdf">
+                                    <img src="https://cdn2.penguin.com.au/covers/original/9780141330167.jpg" class="img-responsive" style="width:200px;height: 250px;">
+                                    <div class="caption">Pride and Prejudice--Jane Austen</div>
+                                </a>
+                            </div>
+
+                            <div class="thumbnail">
+                                <a href="file:///C:/Users/anukr/OneDrive/Desktop//Beerandbooks/Files/A%20thousand%20splendid%20suns%20-%20Khaled%20Hosseini.pdf">
+                                    <img src="https://th.bing.com/th/id/OIP.xXdG8KSYlhK12NQlXi1aJAHaLT?pid=ImgDet&rs=1" class="img-responsive" style="width:200px;height: 250px;">
+                                    <div class="caption">A Thousand Splendid Suns- Khaled Hosseini</div>
+                                </a>
+                            </div>
+
+                            <div class="thumbnail">
+                                <a href="file:///C:/Users/anukr/OneDrive/Desktop/Beerandbooks/Files/Anne%20of%20Green%20Gables.pdf">
+                                    <img src="https://cdn2.penguin.com.au/covers/original/9780099582649.jpg" class="img-responsive" style="width:200px;height: 250px;">
+                                    <div class="caption">Anne of Green Gables-- L.M. Montgomerry</div>
+                                </a>
+                            </div>
+
+                            <div class="thumbnail">
+                                <a href="file:///C:/Users/anukr/OneDrive/Desktop/Beerandbooks/Files/the-strength-in-our-scars-pdfpdf_compress.pdf">
+                                    <img src="https://th.bing.com/th/id/OIP.ivjj3VODdgvPgHsY71yGYQHaLH?pid=ImgDet&rs=1" class="img-responsive" style="width:200px;height: 250px;">
+                                    <div class="caption">The Strength in our scars--Bianca Sparacino</div>
+                                </a>
+                            </div>
+                        
+                            
+                        </div>
+                    </div> 
+                </div>  
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+
+<footer class="text-center text-lg-start text-muted" style="background-color: rgb(81, 44, 44) ;">
+    <p style="color:rgb(230, 217, 201)"> We provide E-books.</p>
+    <div>
+        <a href="#" class="fa fa-instagram"></a>
+        <a href="#" class="fa fa-linkedin"></a>
+        <a href="#" class="fa fa-github"></a>
+      </div>
+  
+  </footer>
+  <!-- Footer -->
+             
+
+</body>
+
+</html>
